@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+  nav {
+    /* width: 80%; Adjust width for small screens */
+    max-width: 100%; /* Ensures it doesn't exceed the screen width */
+    height: auto;
+    overflow: hidden;
+  }
+  .float-start1{
+    justify-content: center;
+    display: flex;
+  }
+  .buttons1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile_picture {
+    display: flex; /* Activate flexbox for centering */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: 300px;
+    width: 300px;
+    margin: 0 auto; /* Ensures the container is centered in its parent */
+    box-shadow: 0 2px 0px 0px white;
+  }
+}

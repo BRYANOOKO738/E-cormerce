@@ -1,0 +1,4 @@
+{"version":2,
+"name":"node js",
+"builds":[{"src":"Server.js","use":"@vacel/node"}],
+"routes":[{"src":"/(.*)","dest":"/"}]}

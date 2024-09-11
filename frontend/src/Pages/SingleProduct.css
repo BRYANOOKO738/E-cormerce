@@ -1,0 +1,22 @@
+.dot {
+  height: 35px;
+  width: 35px;
+  /* background-color: transparent; */
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid blue;
+  cursor: pointer;
+  /* background-color: lightgrey; */
+  margin-right: 10px;
+  transition: background-color 0.3s;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.dot.clicked {
+  background-color: lightblue;
+  /* Background color when clicked */
+}

@@ -1,0 +1,21 @@
+.contact{
+    background-image:url('src/pexels-arabiclogos-453201.jpg');
+    border-radius: 4px;
+    margin: 5px;
+    color:whitesmoke;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+
+}
+#send{
+    justify-content: end;
+}
+#middle{
+    text-align: center;
+}
+#clr{
+    color:rgb(76, 222, 63) ;
+}
+
+

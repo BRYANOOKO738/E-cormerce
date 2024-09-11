@@ -1,0 +1,42 @@
+.card{
+    background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.svg-icon-border {
+    display: inline-block;
+    padding: 10px;
+    /* Adjust padding to control the space between the icon and the border */
+    border: 2px solid #000;
+    /* Adjust border color and width */
+   
+    /* Optional: make it circular */
+    background-color: #fff;
+    /* Optional: background color behind the border */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the total width/height */
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+    /* Smooth transition */
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    /* Slightly increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add shadow effect */
+    border-color: #007bff;
+    /* Change border color on hover */
+}
